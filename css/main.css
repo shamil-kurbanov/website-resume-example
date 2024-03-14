@@ -1,0 +1,254 @@
+		.element{
+			background-color: lightpink;
+			width: 400px;
+            height: 200px;
+			margin: 30px;
+			padding: 15px;
+			border: 1px solid black;
+		}
+		 * {
+       		 font-family: 'Roboto', sans-serif;
+     	 }
+
+		 a {
+			color: black;
+			 text-decoration: none;
+		 }
+		a:hover {
+			color:black;
+			text-decoration: underline;
+		}
+
+		html, body{
+			margin: 0;
+			padding: 0;
+			background-color: #f6f7f9;
+		}
+
+		header{
+			height: 100px;
+			padding: 0 40px;
+		}
+		header > div{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-right: 10px;
+		}
+		header > div > a {
+			margin-right: 20px;
+		}
+
+		.fixed-container{
+			max-width: 1000px;
+			height: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		section {
+			padding: 40px;
+		}
+		.first-block{
+			height: 400px;
+		}
+		.first-block > div{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: flex-start;
+			background-image: url("../img/man.png");
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: right center;
+		}
+		.services{
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 30px;
+		}
+		.services > div{
+			width: 200px;
+		}
+		.services img{
+			width: 150px;
+		}
+		.price-info{
+			background-color: #3d52fe;
+			color: white;
+		}
+
+		.portfolio-examples {
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 30px;
+		}
+
+		.portfolio-example {
+    		width: 30%; /* Adjust the width as needed */
+		}
+
+		.portfolio-example img {
+    		width: 100%;
+    		height: auto;
+		}
+
+
+		.light-button{
+			border: 1px solid black;
+			background-color: transparent;
+			padding: 10px 30px;
+            cursor: pointer;
+			border-radius: 5px;
+		}
+		.dark-button{
+			border: 1px solid #3d52fe;
+			background-color: #3d52fe;
+			color: white;
+			padding: 10px 30px;
+            cursor: pointer;
+			border-radius: 5px;
+		}
+
+		button{
+		}
+		.popup-container{
+			background-color: #000000b3;
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			display: none;
+			justify-content: center;
+			align-items: center;
+		}
+		.popup-form{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+
+			padding: 30px;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			background-color: white;
+
+			background-color: white;
+			width: 400px;
+			height: 400px;
+			padding: 30px;
+			border-radius: 10px;
+		}
+		.submit-button{
+
+		}
+		.popup-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		margin-bottom: 20px;
+		}
+
+		.popup-header h2 {
+			margin: 0;
+			font-size: 24px;
+			color: #333;
+		}
+		.first-block h1 {
+			margin: 0;
+			font-size: 45px;
+			color: #333;
+		}
+
+		.popup-header .close-button {
+			background-color: #3875d7;
+			border: 1px solid black;
+			font-size: 24px;
+			cursor: pointer;
+		}
+
+		.popup-form input,
+		.popup-form textarea,
+		.popup-form .submit-button {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 15px;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			font-size: 16px;
+		}
+
+		.popup-form textarea {
+			resize: vertical;
+		}
+
+		.popup-form button {
+			background-color: #3d52fe;
+			color: white;
+			border: none;
+			cursor: pointer;
+		}
+
+		.popup-form button:hover {
+			background-color: #001c40;
+		}
+
+		.popup-overlay {
+			background-color: rgba(0, 0, 0, 0.3);
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			z-index: 9999;
+		}
+
+		footer{
+			padding: 40px;
+		}
+		.footer-services{
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 30px;
+		}
+		.footer-links{
+			display: flex;
+			flex-direction: column;
+		}
+
+		.footer-contacts{
+			display: flex;
+			justify-content: left;
+			flex-direction: column;
+		}
+
+		.footer-sozial-icons{
+			margin-top: 20px;
+			display: flex;
+			justify-content: space-between;
+			flex-direction: row;
+		}
+
+		header .header-links a {
+			margin-right: 25px;
+		}
+
+		header .header-phone span {
+			margin-right: 25px;
+		}
+
+		header .fixed-container{
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 30px;
+		}
+
+		.price-info h2{
+			width: 50%;
+		}
+		.price-info p {
+			width: 50%;
+		}
